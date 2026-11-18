@@ -1,0 +1,8 @@
+dataset_name: Adult (OpenML version 2)
+dataset_sha256: ac92f1045323b63fdef4470488fb8cbee50bf4c6f74665ae910b1c56ea49cf8b
+test_shape:
+- 14653
+- 16
+train_shape:
+- 34165
+- 16
