@@ -1,0 +1,11 @@
+# Training configuration for Lab 6
+seed: 42
+batch_size: 64
+epochs: 10
+learning_rate: 0.01
+optimizer: "sgd"  # options: sgd, adam
+momentum: 0.9
+scheduler: "StepLR" # options: StepLR, CosineAnnealingLR, ReduceLROnPlateau
+num_workers: 2
+checkpoint_dir: "./checkpoints"
+mlflow_experiment_name: "lab6_training_pipeline"
